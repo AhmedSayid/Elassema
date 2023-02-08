@@ -203,9 +203,6 @@ const Home = () => {
               </Fade>
             </div>
           </div>
-          {/* <!--==================================
-                خلي الانميشن يظههر اما اعمل سكرول عنده
-              ===================================--> */}
           <div className="col-sm-12 col-md-6">
             <div className="def-block" style={{ marginTop: "20px" }}>
               <div className="content" id="playing_now">
