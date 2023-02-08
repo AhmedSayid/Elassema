@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import UpBar from "../Components/UpBar";
-import Navbar from "../Components/Navbar";
+import UpBar from "../Components/UpBar/UpBar";
+import Navbar from "../Components/Navbar/Navbar";
 
 const Root = () => {
   return (

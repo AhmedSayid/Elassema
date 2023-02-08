@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../assets/img/شعار_العاصمة_لوغو.png";
+import Logo from "../../assets/img/شعار_العاصمة_لوغو.png";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
