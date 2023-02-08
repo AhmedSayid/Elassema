@@ -22,6 +22,9 @@
   white-space: nowrap;
   color: white;
 }
+.latest-news span:not(:first-child):before {
+  content: " | ";
+}
 /*
 =========================
         media qure
