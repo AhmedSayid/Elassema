@@ -1,63 +1,17 @@
-/* eslint-disable jsx-a11y/no-distracting-elements */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import CarouselImg from "../assets/img/شعار_العاصمة_لوغو (2).png";
-import Img1 from "../assets/img/3288_1672577065.png";
-import Small from "../assets/img/small.jpg";
-import "../Components/Home/Home.css";
+import "./home.css";
+import CarouselImg from "../../assets/img/شعار_العاصمة_لوغو (2).png";
+import Img1 from "../../assets/img/3288_1672577065.png";
+import Small from "../../assets/img/Untitled-1.png";
+// import LatestNews from "../../Components/LatestNews";
+import Carousel from "../../Components/Carousel";
 import Fade from "react-reveal/Fade";
 
 const Home = () => {
   return (
     <>
-      <div
-        style={{ background: "#256bb0", height: "auto", overflow: "hidden" }}
-        className="p-2 in-block d-flex latest-news-container"
-      >
-        <div
-          className="btn btn fw-bolder fs-5 mx-3"
-          style={{
-            background: "#f6921e",
-            color: "#ffff",
-            zIndex: "100",
-            minWidth: "112px",
-          }}
-        >
-          اخر الاخبار
-        </div>
-        <marquee className="latest-news">
-          <span>احمد بقي مدير شركة مونوسبيس للبرمجيات</span>
-          <span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
-            quaerat.
-          </span>
-          <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumque
-            hic dolores ducimus distinctio! Delectus!
-          </span>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sequi
-            eaque quisquam inventore!
-          </span>
-        </marquee>
-      </div>
-      <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={CarouselImg} className="d-block w-100 h-25" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={CarouselImg} className="d-block w-100 h-25" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={CarouselImg} className="d-block w-100 h-25" alt="..." />
-          </div>
-        </div>
-      </div>
+      {/* <LatestNews /> */}
+      <Carousel />
       <div className="page-content">
         <div className="row row-fluid clearfix mbf">
           <div className="col-sm-12 col-md-6">

@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import "./UpBar.css";
 
 const UpBar = () => {
   return (
     <div className="up-bar">
-      <div className="container">
+      <div className="container animate__animated animate__lightSpeedInLeft">
         <div className="row">
           <div className="col-sm-3 col-md-3 col-xs-12">
             <div className="social-media">
