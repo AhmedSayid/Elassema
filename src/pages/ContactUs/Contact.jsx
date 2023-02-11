@@ -36,7 +36,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-xs-12">
-                            <div className="btn-lrg submit-btn">Send Message</div>
+                            <div className="btn-lrg submit-btn" onClick={send}>Send Message</div>
                         </div>
                     </div>
                 </div>
@@ -44,4 +44,16 @@ const Contact = () => {
         )
     }
 }
+const send =()=>{(
+    fetch('https://elassema.herokuapp.com/sendNewContact',{
+        method:'POST',
+        const body = {Email:'teast@gmail.com',Massage:'hello world',Name:'Ahmed',Phone:'01028887119'};
+        const Mybody = JSON.stringify(obj);
+       /*  */
+    }).then((res)=>{return res.json()}).then((data)=>{
+        // if success
+        console.log(data)
+    })
+
+)}
 export default Contact;

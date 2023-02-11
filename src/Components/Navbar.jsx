@@ -18,7 +18,7 @@ const Navbar = () => {
     },
     {
       title: "برامج اليوم",
-      link: "/",
+      link: "/Programmes",
       id: "menu-item-111",
     },
     {
