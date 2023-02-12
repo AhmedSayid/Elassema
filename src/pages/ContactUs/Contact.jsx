@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./contact.css";
+import "./../../assets/css/animate.min.css";
 import axios from "axios";
 const Contact = () => {
   let [data, setData] = useState({});
@@ -13,29 +14,63 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="container">
+      <div className="container contact">
         <div className="row">
-          <h1>contact us</h1>
+          <h1 className="text-dark fs-1 animate__animated animate__lightSpeedInRight">
+            contact us
+          </h1>
         </div>
         <div className="row">
-          <h4 style={{ textAlign: "center" }}>We'd love to hear from you!</h4>
+          <h4 class="text-dark" style={{ textAlign: "center" }}>
+            We'd love to hear from you!
+          </h4>
         </div>
         <div className="row input-container">
           <div className="col-xs-12">
             <div className="styled-input wide">
-              <input type="text" required name="Name" onChange={addData} />
+              <input
+                type="text"
+                style={{
+                  backgroundColor: "#2d2d2d",
+                  padding: "30px",
+                  width: "100%",
+                }}
+                required
+                name="Name"
+                onChange={addData}
+              />
               <label>Name</label>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="styled-input">
-              <input type="text" required name="Email" onChange={addData} />
+              <input
+                type="text"
+                style={{
+                  backgroundColor: "#2d2d2d",
+                  padding: "30px",
+                  width: "100%",
+                }}
+                required
+                name="Email"
+                onChange={addData}
+              />
               <label>Email</label>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="styled-input" style={{ float: "right" }}>
-              <input type="text" required name="Phone" onChange={addData} />
+              <input
+                type="text"
+                style={{
+                  backgroundColor: "#2d2d2d",
+                  padding: "30px",
+                  width: "100%",
+                }}
+                required
+                name="Phone"
+                onChange={addData}
+              />
               <label>Phone Number</label>
             </div>
           </div>

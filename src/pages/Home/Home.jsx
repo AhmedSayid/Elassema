@@ -161,12 +161,12 @@ const Home = () => {
             <div className="def-block" style={{ marginTop: "20px" }}>
               <div className="content" id="playing_now">
                 <ul className="tab-content-items">
-                  <li className="clearfix">
+                  <li style={{listStyle:'none', width:'100%'}} className="clearfix">
                     <a
                       className="m-thumbnail"
-                      style={{ width: "130px", height: "130px" }}
+                      style={{ width: "230px", height: "130px" }}
                     >
-                      <img width="130" height="130" src="{{}}" alt="" />
+                      <img width="250" className="rounded-3" height="130" src={Small} alt=""  />
                     </a>
 
                     <h2>
@@ -200,12 +200,8 @@ const Home = () => {
                           <div className="span9">
                             <img
                               style={{
-                                float: "right",
-                                width: "40px",
-                                height: "30px",
-                                marginLeft: "10px",
-                              }}
-                              alt="#"
+                                float: "right",width: "60px",height: "30px",marginLeft: "10px",}}
+                              alt="#" src={Small} className="rounded-3"
                             />
 
                             <h3
@@ -228,14 +224,10 @@ const Home = () => {
                           style={{ padding: "0px", margin: "0px" }}
                         >
                           <div className="span9">
-                            <img
+                          <img
                               style={{
-                                float: "right",
-                                width: "40px",
-                                height: "30px",
-                                marginLeft: "10px",
-                              }}
-                              alt="#"
+                                float: "right",width: "60px",height: "30px",marginLeft: "10px",}}
+                              alt="#" src={Small} className="rounded-3"
                             />
 
                             <h3
@@ -245,7 +237,7 @@ const Home = () => {
                               <a>
                                 <font color="#b77b22"></font>
                               </a>
-                              &nbsp;&nbsp; <a href="">لسة الصبح</a>
+                              &nbsp;&nbsp; <a  className="text-light" href="">لسة الصبح</a>
                             </h3>
                           </div>
                           <div className="span2">09:00</div>
@@ -258,15 +250,12 @@ const Home = () => {
                           style={{ padding: "0px", margin: "0px" }}
                         >
                           <div className="span9">
-                            <img
+                          <img
                               style={{
-                                float: "right",
-                                width: "40px",
-                                height: "30px",
-                                marginLeft: "10px",
-                              }}
-                              alt="#"
+                                float: "right",width: "60px",height: "30px",marginLeft: "10px",}}
+                              alt="#" src={Small} className="rounded-3"
                             />
+                            
 
                             <h3
                               className="news-title"
@@ -288,14 +277,10 @@ const Home = () => {
                           style={{ padding: "0px", margin: "0px" }}
                         >
                           <div className="span9">
-                            <img
+                          <img
                               style={{
-                                float: "right",
-                                width: "40px",
-                                height: "30px",
-                                marginLeft: "10px",
-                              }}
-                              alt="#"
+                                float: "right",width: "60px",height: "30px",marginLeft: "10px",}}
+                              alt="#" src={Small} className="rounded-3"
                             />
 
                             <h3

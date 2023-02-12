@@ -1,12 +1,14 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
 import Root from "./pages/Root";
 import Home from "./pages/Home/Home";
 import Announcers from "./pages/Announcers/Announcers";
 import Contact from "./pages/ContactUs/Contact";
 import Programmes from "./pages/programmes/Programmes";
-
+import FirstMuinte from "./pages/FirstMuinte/FirstMuinte";
+import News from "./pages/News/News";
 
 const router = createBrowserRouter([
   {
@@ -22,12 +24,20 @@ const router = createBrowserRouter([
         element: <Announcers />,
       },
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact />,
       },
       {
-        path: "/Programmes",
+        path: "/programmes",
         element: <Programmes />,
+      },
+      {
+        path: "/firstmuinte",
+        element: <FirstMuinte />,
+      },
+      {
+        path: "/news",
+        element: <News />,
       },
     ],
   },

@@ -1,0 +1,30 @@
+.firstmuinte .row {
+  margin-top: 10px;
+}
+.firstmuinte .widget {
+  margin-bottom: 16px;
+}
+.firstmuinte .tab-content-items a {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+.firstmuinte .tab-content-items h3 {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+.firstmuinte .m-thumbnail img {
+  border-radius: 50%;
+}
+.firstmuinte img {
+  display: inline-block;
+  margin-left: 5px;
+}
+@media (min-width: 479px) and (max-width: 767px) {
+  .firstmuinte .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
