@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../assets/img/شعار_العاصمة_لوغو (2).png";
+import Logo from "../../assets/img/شعار_العاصمة_لوغو.png";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -13,12 +14,12 @@ const Navbar = () => {
     },
     {
       title: "المذيعون",
-      link: "Announcers/",
+      link: "/",
       id: "menu-item-153",
     },
     {
       title: "برامج اليوم",
-      link: "/Programmes",
+      link: "/",
       id: "menu-item-111",
     },
     {
@@ -43,14 +44,14 @@ const Navbar = () => {
     },
     {
       title: "اتصل بنا",
-      link: "Contact",
+      link: "/",
       id: "menu-item-153",
     },
   ];
   return (
     <>
       <div className="header">
-        <div className="container animate__animated animate__lightSpeedInRight">
+        <div className="container">
           <div className="row">
             <div className="col-sm-3 col-md-3 col-xs-6">
               <div className="logo">

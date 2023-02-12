@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import "./UpBar.css";
 
 const UpBar = () => {
   return (
     <div className="up-bar">
-      <div className="container animate__animated animate__lightSpeedInLeft">
+      <div className="container">
         <div className="row">
           <div className="col-sm-3 col-md-3 col-xs-12">
             <div className="social-media">
@@ -88,7 +89,7 @@ const UpBar = () => {
                 </li>
                 {/* <!--phone--> */}
                 <li>
-                  <a style={{ textDecoration: "none" }} href="tel: 01111970386">
+                  <a style={{ textDecoration: "none" }} href="tel: 0580422098">
                     {" "}
                     <i>
                       <svg
@@ -102,12 +103,12 @@ const UpBar = () => {
                         <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
                       </svg>
                     </i>{" "}
-                    01028887119
+                    0580422098
                   </a>{" "}
                 </li>
                 {/* <!--phone--> */}
                 <li>
-                  <a style={{ textDecoration: "none" }} href="tel: 01028887119">
+                  <a style={{ textDecoration: "none" }} href="tel: 0580422098">
                     {" "}
                     <i>
                       <svg
@@ -121,14 +122,14 @@ const UpBar = () => {
                         <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
                       </svg>
                     </i>{" "}
-                    01028887474
+                    0580422098
                   </a>{" "}
                 </li>
                 {/* <!--mob--> */}
                 <li>
                   {" "}
-                  <a style={{ textDecoration: "none" }} href="tel:01028887474">
-                  01111970386{" "}
+                  <a style={{ textDecoration: "none" }} href="tel:0580422098">
+                    0580422098{" "}
                     <i>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
