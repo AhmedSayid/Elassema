@@ -1,0 +1,30 @@
+.news .row {
+  margin-top: 10px;
+}
+.news .widget {
+  margin-bottom: 16px;
+}
+.news .tab-content-items a {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+.news .tab-content-items h3 {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+.news .m-thumbnail img {
+  border-radius: 50%;
+}
+.news img {
+  display: inline-block;
+  margin-left: 5px;
+}
+@media (min-width: 479px) and (max-width: 767px) {
+  .news .row {
+    display: flex;
+    flex-direction: column;
+  }
+}

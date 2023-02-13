@@ -13,37 +13,32 @@ const Navbar = () => {
     },
     {
       title: "المذيعون",
-      link: "Announcers/",
+      link: "/announcers",
       id: "menu-item-153",
     },
     {
       title: "برامج اليوم",
-      link: "/Programmes",
+      link: "/programmes",
       id: "menu-item-111",
     },
     {
       title: "الدقيقة الاولى",
-      link: "/",
+      link: "/firstmuinte",
       id: "menu-item-119",
     },
     {
       title: "اخبار العاصمة",
-      link: "/",
-      id: "menu-item-153",
-    },
-    {
-      title: "تسجيلات",
-      link: "/",
+      link: "/news",
       id: "menu-item-153",
     },
     {
       title: "صور",
-      link: "/",
+      link: "/gallery",
       id: "menu-item-153",
     },
     {
       title: "اتصل بنا",
-      link: "Contact",
+      link: "/contact",
       id: "menu-item-153",
     },
   ];
